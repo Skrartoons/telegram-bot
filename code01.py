@@ -69,7 +69,7 @@ async def send_command(client, account):
                     await asyncio.sleep(random.uniform(3.5 * 60, 5 * 60))
                 else:
                     # Ожидание от 180 до 420 минут
-                    await asyncio.sleep(random.uniform(180 * 60, 420 * 60))
+                    await asyncio.sleep(random.uniform(370 * 60, 500 * 60))
 
             # Проверка на наличие знаков - и +
             messages = await client.get_messages(chat, limit=5)
